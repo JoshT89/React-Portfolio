@@ -130,14 +130,32 @@ const About = () => {
     return (
         <section className='xl:h-[860px] pb-12 xl:py-24'>
             <div className='container mx-auto'>
-                <h2 className='section-title mb-8 xl:mb-16 text-center mx-auto'>About Me</h2>
-                <div>
+                <h2 className='section-title mb-8 xl:mb-16 text-center mx-auto'>About Me
+                </h2>
+                <div className='flex flex-col xl:flex-row'>
                     {/* image */}
-                    <div>
+                    <div className='hidden xl:flex flex-1 relative'>
                         <DevImg containerStyles='bg-about_shape_light dark:bg-about-shape-dark w-[505px] 
                         h-[505px] bg-no-repeat relative' 
                             imgSrc='/about/developer.png'
                         />
+                    </div>
+                    {/* tabs */}
+                    <div className='flex-1'>
+                        <Tabs defaultValue='personal'>
+                            <TabsList className='w-full grid xl:grid-cols-3 xl:max-w-[520px] xl:border dark:border-none'>
+                                <TabsTrigger className='w[162px] xl:w-auto' value='personal'>Personal Info</TabsTrigger>
+                                <TabsTrigger className='w[162px] xl:w-auto' value='qualifications'>Qualifications</TabsTrigger>
+                                <TabsTrigger className='w[162px] xl:w-auto' value='skills'>Skills</TabsTrigger>
+                            </TabsList>
+                            {/* tabs content */}
+                            <div className='text-lg mt-12 xl:mt-8'>
+                                {/* personal  */}
+                                <TabsContent value='personal'>personal info</TabsContent>
+                                <TabsContent value='qualifications'>qualifications info</TabsContent>
+                                <TabsContent value='skills'>skills info</TabsContent>
+                            </div>
+                        </Tabs>
                     </div>
                 </div>
 </div>
