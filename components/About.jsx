@@ -106,10 +106,10 @@ const skillData = [
         imgPath: "/about/vscode.svg",
       },
       {
-        imgPath: "/about/figma.svg",
+        imgPath: "/about/github.svg",
       },
       {
-        imgPath: "/about/github.svg",
+        imgPath: "/about/notion.svg",
       },
       {
         imgPath: "/about/wordpress.svg",
@@ -280,7 +280,7 @@ const About = () => {
                 {/* skills */}
                 <TabsContent value="skills">
                   <div className="text-center xl:text-left">
-                                      <h3 className="h3 mb-8">Tools I Use</h3>
+                                      <h3 className="h3 mb-8">What I Work With</h3>
                                       {/* skills */}
                                       <div className='mb-16'>
                       <h4 className="text-xl font-semibold mb-2">Skills</h4>
@@ -307,7 +307,7 @@ const About = () => {
                                           <h4 className='text-xl font-semibold mb-2 xl:text-left'>Tools</h4>
                                           <div className="border-b border-border mb-4"></div>
                                           {/* tools list */}
-                                          <div>
+                                          <div className='flex gap-x-8 justify-center xl:justify-start'>
                                               {getData(skillData, "tools").data.map((item, index) => {
                                                   const { imgPath } = item;
                                                   return (
