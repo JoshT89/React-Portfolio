@@ -22,7 +22,7 @@ const projectData = [
         name: 'Lyriks website',
         description: 'A website that keeps up to date with current song charts in all categories and gives you a free snippet of the song',
         link: '/',
-        githib: '/',
+        github: '/',
     },
     {
         image: '/work/3.png',
@@ -30,7 +30,7 @@ const projectData = [
         name: 'TurnEround Fitness website',
         description: 'My dream project of owning my own gym one day and this is the website for it',
         link: '/',
-        githib: '/',
+        github: '/',
     },
     {
         image: '/work/3.png',
@@ -38,7 +38,7 @@ const projectData = [
         name: 'Sik Wolf website',
         description: 'Website for a friend of mine who is a designer and photographer, this is a website for his designs',
         link: '/',
-        githib: '/',
+        github: '/',
     },
     {
         image: '/work/3.png',
@@ -46,7 +46,7 @@ const projectData = [
         name: 'Lyriks website',
         description: 'A website that keeps up to date with current song charts in all categories and gives you a free snippet of the song',
         link: '/',
-        githib: '/',
+        github: '/',
     },
      {
         image: '/work/3.png',
@@ -54,7 +54,7 @@ const projectData = [
         name: 'Lyriks website',
         description: 'A website that keeps up to date with current song charts in all categories and gives you a free snippet of the song',
         link: '/',
-        githib: '/',
+        github: '/',
     },
 ];
 
@@ -86,7 +86,7 @@ const Work = () => {
                         pagination={{ clickable: true }}
                     >
                         {/* show only the first 4 projects for the slides */}
-                        {projectData.slice(0.4).map((project, index) => {
+                        {projectData.slice(0, 4).map((project, index) => {
                             return (
                                 <SwiperSlide key={index}>
                                     <ProjectCard project={project} />
