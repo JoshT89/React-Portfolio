@@ -26,7 +26,7 @@ const projectData = [
     },
     {
         image: '/work/3.png',
-        category: 'react js',
+        category: 'next js',
         name: 'TurnEround Fitness website',
         description: 'My dream project of owning my own gym one day and this is the website for it',
         link: '/',
@@ -34,7 +34,7 @@ const projectData = [
     },
     {
         image: '/work/3.png',
-        category: 'react js',
+        category: 'fullstack',
         name: 'Sik Wolf website',
         description: 'Website for a friend of mine who is a designer and photographer, this is a website for his designs',
         link: '/',
