@@ -75,7 +75,7 @@ const Hero = () => {
             <Badge
             containerStyles='absolute top-[55%] -right-8'
             icon={<RiTeamFill />}
-            endCountNum={22}
+            endCountNum={10}
             badgeText='Happy Clients'
             />
             <div
