@@ -12,23 +12,23 @@ import Link from 'next/link';
 
 const icons = [
   {
-    path: '/',
+    path: 'https://www.youtube.com/@freecodecamp/videos',
     name: <RiYoutubeFill />
   },
   {
-    path: '/',
+    path: 'https://www.linkedin.com/in/joshua-turner-81311066/',
     name: <RiLinkedinFill />
   },
   {
-    path: '/',
+    path: 'https://github.com/JoshT89',
     name: <RiGithubFill />
   },
   {
-    path: '/',
+    path: 'https://www.facebook.com/itboffins',
     name: <RiFacebookFill />
   },
 {
-    path: '/',
+    path: 'https://www.instagram.com/itboffins/?hl=en',
     name: <RiInstagramFill />
   },
 ]; 

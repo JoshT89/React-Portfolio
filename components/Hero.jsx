@@ -46,10 +46,12 @@ const Hero = () => {
                   Contact me <Send size={18} />
                 </Button>
               </Link>
-              <Button variant="secondary" className="gap-x-2">
-                Download CV
-                <Download size={18} />
-              </Button>
+              <a href="cv.pdf" download>
+                <Button variant="secondary" className="gap-x-2">
+                  Download CV
+                  <Download size={18} />
+                </Button>
+              </a>
             </div>
             <Socials
               containerStyles="flex gap-x-6 mx-auto xl:mx-0"
@@ -59,24 +61,24 @@ const Hero = () => {
           {/* image */}
           <div className="hidden xl:flex relative">
             <Badge
-            containerStyles='absolute top-[24%] -left-[5rem]'
+              containerStyles='absolute top-[24%] -left-[5rem]'
               icon={<RiBriefcase4Fill />}
-            endCountNum={2}
-            badgeText='Years of Experience'
+              endCountNum={2}
+              badgeText='Years of Experience'
             />
             {/* badge 2 */}
             <Badge
-            containerStyles='absolute top-[80%] -left-[1rem]'
-            icon={<RiTodoFill />}
-            endCountNum={15}
-            badgeText='Finished Projects'
+              containerStyles='absolute top-[80%] -left-[1rem]'
+              icon={<RiTodoFill />}
+              endCountNum={15}
+              badgeText='Finished Projects'
             />
-             {/* badge 3 */}
+            {/* badge 3 */}
             <Badge
-            containerStyles='absolute top-[55%] -right-8'
-            icon={<RiTeamFill />}
-            endCountNum={10}
-            badgeText='Happy Clients'
+              containerStyles='absolute top-[55%] -right-8'
+              icon={<RiTeamFill />}
+              endCountNum={10}
+              badgeText='Happy Clients'
             />
             <div
               className="bg-hero_shape2_light dark:bg-hero_shape2_dark w-[500px] 
@@ -84,7 +86,7 @@ const Hero = () => {
             ></div>
             <DevImg
               containerStyles="bg-hero_shape w-[510px] h-[462px] bg-no-repeat 
-            relative bg-bottom" 
+            relative bg-bottom"
               imgSrc='/hero/developer.png'
             />
           </div>

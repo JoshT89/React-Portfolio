@@ -12,17 +12,17 @@ const servicesData = [
     {
         icon: <GanttChartSquare size={72} strokeWidth={0.8} />,
     title: 'Web Design',
-            description: 'Put relevant information here'
+            description: 'Come to me with an idea and I will make it a reality. I will do all the design for you giving you time to focus on other things.'
     },
      {
         icon: <Blocks size={72} strokeWidth={0.8} />,
     title: 'Web Development',
-            description: 'Put relevant information here'
+            description: 'Develop a website just for your needs, only pay for what you require. Most projects made using React.js and Next.js. for a fast and responsive website.'
     },
       {
         icon: <Gem size={72} strokeWidth={0.8} />,
-    title: 'App Development',
-            description: 'Put relevant information here'
+    title: 'Wordpress',
+            description: 'For a simple cost effective website with good SEO optimisation, Wordpress is the way to go.'
     },
 ];
 
